@@ -1,0 +1,2084 @@
+{
+  "took" : 62,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 12,
+    "successful" : 12,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 456,
+      "relation" : "eq"
+    },
+    "max_score" : null,
+    "hits" : [ ]
+  },
+  "aggregations" : {
+    "time" : {
+      "buckets" : [
+        {
+          "key_as_string" : "2023-10-22T16:50:00.000Z",
+          "key" : 1697993400000,
+          "doc_count" : 114,
+          "process" : {
+            "doc_count_error_upper_bound" : 0,
+            "sum_other_doc_count" : 0,
+            "buckets" : [
+              {
+                "key" : "erl",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 11.6
+                }
+              },
+              {
+                "key" : "mcshield",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 10.89
+                }
+              },
+              {
+                "key" : "SWJobEngineWorker2",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 3.46
+                }
+              },
+              {
+                "key" : "svchost",
+                "doc_count" : 18,
+                "utilization" : {
+                  "value" : 3.26
+                }
+              },
+              {
+                "key" : "sqlservr",
+                "doc_count" : 2,
+                "utilization" : {
+                  "value" : 2.88
+                }
+              },
+              {
+                "key" : "WmiPrvSE",
+                "doc_count" : 5,
+                "utilization" : {
+                  "value" : 1.9000000000000001
+                }
+              },
+              {
+                "key" : "SolarWinds.ServiceHost.Process",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 1.81
+                }
+              },
+              {
+                "key" : "System",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.94
+                }
+              },
+              {
+                "key" : "SWJobEngineSvc2",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.62
+                }
+              },
+              {
+                "key" : "lsass",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.52
+                }
+              },
+              {
+                "key" : "SearchIndexer",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.39
+                }
+              },
+              {
+                "key" : "MVArmorService32",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.33
+                }
+              },
+              {
+                "key" : "ir_agent",
+                "doc_count" : 3,
+                "utilization" : {
+                  "value" : 0.29000000000000004
+                }
+              },
+              {
+                "key" : "mfetp",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.28
+                }
+              },
+              {
+                "key" : "SolarWinds.Agent.Service",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.21
+                }
+              },
+              {
+                "key" : "Automate",
+                "doc_count" : 2,
+                "utilization" : {
+                  "value" : 0.15000000000000002
+                }
+              },
+              {
+                "key" : "DCProcessMonitor",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.11
+                }
+              },
+              {
+                "key" : "ssm-agent-worker",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.09
+                }
+              },
+              {
+                "key" : "SWJobEngineWorker2x64",
+                "doc_count" : 2,
+                "utilization" : {
+                  "value" : 0.05
+                }
+              },
+              {
+                "key" : "conhost",
+                "doc_count" : 11,
+                "utilization" : {
+                  "value" : 0.04
+                }
+              },
+              {
+                "key" : "masvc",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.04
+                }
+              },
+              {
+                "key" : "WmiApSrv",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.03
+                }
+              },
+              {
+                "key" : "explorer",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.03
+                }
+              },
+              {
+                "key" : "SsiClassificationClient",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.02
+                }
+              },
+              {
+                "key" : "SsiDataCaptureClient",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.02
+                }
+              },
+              {
+                "key" : "SsiExportClient",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.02
+                }
+              },
+              {
+                "key" : "SsiImageProcessingClient",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.02
+                }
+              },
+              {
+                "key" : "SsiOcrClient",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.02
+                }
+              },
+              {
+                "key" : "csrss",
+                "doc_count" : 3,
+                "utilization" : {
+                  "value" : 0.02
+                }
+              },
+              {
+                "key" : "mfeesp",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.02
+                }
+              },
+              {
+                "key" : "mfevtps",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.02
+                }
+              },
+              {
+                "key" : "services",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.02
+                }
+              },
+              {
+                "key" : "UpdaterUI",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.01
+                }
+              },
+              {
+                "key" : "amazon-ssm-agent",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.01
+                }
+              },
+              {
+                "key" : "dwm",
+                "doc_count" : 2,
+                "utilization" : {
+                  "value" : 0.01
+                }
+              },
+              {
+                "key" : "erlsrv",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.01
+                }
+              },
+              {
+                "key" : "macompatsvc",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.01
+                }
+              },
+              {
+                "key" : "mctray",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.01
+                }
+              },
+              {
+                "key" : "mfefw",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.01
+                }
+              },
+              {
+                "key" : "rapid7_endpoint_broker",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.01
+                }
+              },
+              {
+                "key" : "Idle",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "LoginAgentService",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "LogonUI",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "MVArmorService64",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "MinervaMcAfeePropertyRequestListener",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "RuntimeBroker",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "SearchUI",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "ShellExperienceHost",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "SsiAutoClientManager",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "armsvc",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "dcagentservice",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "dcagenttrayicon",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "dcondemand",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "dllhost",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "epmd",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "fontdrvhost",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "jucheck",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "jusched",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "macmnsvc",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "mfehcs",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "mfemactl",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "mfemms",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "msdtc",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "notepad",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "rdpclip",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "sihost",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "smss",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "sqlceip",
+                "doc_count" : 2,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "sqlwriter",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "taskhostw",
+                "doc_count" : 2,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "wininit",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "winlogon",
+                "doc_count" : 2,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key_as_string" : "2023-10-22T16:55:00.000Z",
+          "key" : 1697993700000,
+          "doc_count" : 114,
+          "process" : {
+            "doc_count_error_upper_bound" : 0,
+            "sum_other_doc_count" : 0,
+            "buckets" : [
+              {
+                "key" : "erl",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 12.71
+                }
+              },
+              {
+                "key" : "mcshield",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 10.88
+                }
+              },
+              {
+                "key" : "SWJobEngineWorker2",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 6.88
+                }
+              },
+              {
+                "key" : "svchost",
+                "doc_count" : 18,
+                "utilization" : {
+                  "value" : 3.26
+                }
+              },
+              {
+                "key" : "sqlservr",
+                "doc_count" : 2,
+                "utilization" : {
+                  "value" : 2.8899999999999997
+                }
+              },
+              {
+                "key" : "WmiApSrv",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 1.96
+                }
+              },
+              {
+                "key" : "SolarWinds.ServiceHost.Process",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 1.83
+                }
+              },
+              {
+                "key" : "WmiPrvSE",
+                "doc_count" : 5,
+                "utilization" : {
+                  "value" : 1.17
+                }
+              },
+              {
+                "key" : "System",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.94
+                }
+              },
+              {
+                "key" : "SWJobEngineSvc2",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.62
+                }
+              },
+              {
+                "key" : "lsass",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.52
+                }
+              },
+              {
+                "key" : "SearchIndexer",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.39
+                }
+              },
+              {
+                "key" : "MVArmorService32",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.33
+                }
+              },
+              {
+                "key" : "ir_agent",
+                "doc_count" : 3,
+                "utilization" : {
+                  "value" : 0.29000000000000004
+                }
+              },
+              {
+                "key" : "mfetp",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.28
+                }
+              },
+              {
+                "key" : "SolarWinds.Agent.Service",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.21
+                }
+              },
+              {
+                "key" : "Automate",
+                "doc_count" : 2,
+                "utilization" : {
+                  "value" : 0.15000000000000002
+                }
+              },
+              {
+                "key" : "DCProcessMonitor",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.11
+                }
+              },
+              {
+                "key" : "conhost",
+                "doc_count" : 11,
+                "utilization" : {
+                  "value" : 0.09999999999999999
+                }
+              },
+              {
+                "key" : "ssm-agent-worker",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.09
+                }
+              },
+              {
+                "key" : "SWJobEngineWorker2x64",
+                "doc_count" : 2,
+                "utilization" : {
+                  "value" : 0.05
+                }
+              },
+              {
+                "key" : "masvc",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.04
+                }
+              },
+              {
+                "key" : "explorer",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.03
+                }
+              },
+              {
+                "key" : "SsiClassificationClient",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.02
+                }
+              },
+              {
+                "key" : "SsiDataCaptureClient",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.02
+                }
+              },
+              {
+                "key" : "SsiExportClient",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.02
+                }
+              },
+              {
+                "key" : "SsiImageProcessingClient",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.02
+                }
+              },
+              {
+                "key" : "SsiOcrClient",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.02
+                }
+              },
+              {
+                "key" : "csrss",
+                "doc_count" : 3,
+                "utilization" : {
+                  "value" : 0.02
+                }
+              },
+              {
+                "key" : "mfeesp",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.02
+                }
+              },
+              {
+                "key" : "mfevtps",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.02
+                }
+              },
+              {
+                "key" : "services",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.02
+                }
+              },
+              {
+                "key" : "UpdaterUI",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.01
+                }
+              },
+              {
+                "key" : "amazon-ssm-agent",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.01
+                }
+              },
+              {
+                "key" : "dwm",
+                "doc_count" : 2,
+                "utilization" : {
+                  "value" : 0.01
+                }
+              },
+              {
+                "key" : "erlsrv",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.01
+                }
+              },
+              {
+                "key" : "macompatsvc",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.01
+                }
+              },
+              {
+                "key" : "mctray",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.01
+                }
+              },
+              {
+                "key" : "mfefw",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.01
+                }
+              },
+              {
+                "key" : "rapid7_endpoint_broker",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.01
+                }
+              },
+              {
+                "key" : "Idle",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "LoginAgentService",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "LogonUI",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "MVArmorService64",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "MinervaMcAfeePropertyRequestListener",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "RuntimeBroker",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "SearchUI",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "ShellExperienceHost",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "SsiAutoClientManager",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "armsvc",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "dcagentservice",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "dcagenttrayicon",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "dcondemand",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "dllhost",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "epmd",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "fontdrvhost",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "jucheck",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "jusched",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "macmnsvc",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "mfehcs",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "mfemactl",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "mfemms",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "msdtc",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "notepad",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "rdpclip",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "sihost",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "smss",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "sqlceip",
+                "doc_count" : 2,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "sqlwriter",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "taskhostw",
+                "doc_count" : 2,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "wininit",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "winlogon",
+                "doc_count" : 2,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key_as_string" : "2023-10-22T17:00:00.000Z",
+          "key" : 1697994000000,
+          "doc_count" : 114,
+          "process" : {
+            "doc_count_error_upper_bound" : 0,
+            "sum_other_doc_count" : 0,
+            "buckets" : [
+              {
+                "key" : "erl",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 13.08
+                }
+              },
+              {
+                "key" : "mcshield",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 10.88
+                }
+              },
+              {
+                "key" : "SWJobEngineWorker2",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 4.63
+                }
+              },
+              {
+                "key" : "svchost",
+                "doc_count" : 18,
+                "utilization" : {
+                  "value" : 3.2600000000000002
+                }
+              },
+              {
+                "key" : "sqlservr",
+                "doc_count" : 2,
+                "utilization" : {
+                  "value" : 2.9
+                }
+              },
+              {
+                "key" : "WmiPrvSE",
+                "doc_count" : 5,
+                "utilization" : {
+                  "value" : 1.9799999999999998
+                }
+              },
+              {
+                "key" : "SolarWinds.ServiceHost.Process",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 1.85
+                }
+              },
+              {
+                "key" : "System",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.94
+                }
+              },
+              {
+                "key" : "SWJobEngineSvc2",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.62
+                }
+              },
+              {
+                "key" : "lsass",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.52
+                }
+              },
+              {
+                "key" : "SearchIndexer",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.39
+                }
+              },
+              {
+                "key" : "MVArmorService32",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.33
+                }
+              },
+              {
+                "key" : "ir_agent",
+                "doc_count" : 3,
+                "utilization" : {
+                  "value" : 0.29000000000000004
+                }
+              },
+              {
+                "key" : "mfetp",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.28
+                }
+              },
+              {
+                "key" : "SolarWinds.Agent.Service",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.21
+                }
+              },
+              {
+                "key" : "Automate",
+                "doc_count" : 2,
+                "utilization" : {
+                  "value" : 0.15000000000000002
+                }
+              },
+              {
+                "key" : "DCProcessMonitor",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.11
+                }
+              },
+              {
+                "key" : "ssm-agent-worker",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.09
+                }
+              },
+              {
+                "key" : "SWJobEngineWorker2x64",
+                "doc_count" : 2,
+                "utilization" : {
+                  "value" : 0.05
+                }
+              },
+              {
+                "key" : "WmiApSrv",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.05
+                }
+              },
+              {
+                "key" : "conhost",
+                "doc_count" : 11,
+                "utilization" : {
+                  "value" : 0.04
+                }
+              },
+              {
+                "key" : "masvc",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.04
+                }
+              },
+              {
+                "key" : "explorer",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.03
+                }
+              },
+              {
+                "key" : "SsiClassificationClient",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.02
+                }
+              },
+              {
+                "key" : "SsiDataCaptureClient",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.02
+                }
+              },
+              {
+                "key" : "SsiExportClient",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.02
+                }
+              },
+              {
+                "key" : "SsiImageProcessingClient",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.02
+                }
+              },
+              {
+                "key" : "SsiOcrClient",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.02
+                }
+              },
+              {
+                "key" : "csrss",
+                "doc_count" : 3,
+                "utilization" : {
+                  "value" : 0.02
+                }
+              },
+              {
+                "key" : "mfeesp",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.02
+                }
+              },
+              {
+                "key" : "mfevtps",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.02
+                }
+              },
+              {
+                "key" : "services",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.02
+                }
+              },
+              {
+                "key" : "UpdaterUI",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.01
+                }
+              },
+              {
+                "key" : "amazon-ssm-agent",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.01
+                }
+              },
+              {
+                "key" : "dwm",
+                "doc_count" : 2,
+                "utilization" : {
+                  "value" : 0.01
+                }
+              },
+              {
+                "key" : "erlsrv",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.01
+                }
+              },
+              {
+                "key" : "macompatsvc",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.01
+                }
+              },
+              {
+                "key" : "mctray",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.01
+                }
+              },
+              {
+                "key" : "mfefw",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.01
+                }
+              },
+              {
+                "key" : "rapid7_endpoint_broker",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.01
+                }
+              },
+              {
+                "key" : "Idle",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "LoginAgentService",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "LogonUI",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "MVArmorService64",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "MinervaMcAfeePropertyRequestListener",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "RuntimeBroker",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "SearchUI",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "ShellExperienceHost",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "SsiAutoClientManager",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "armsvc",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "dcagentservice",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "dcagenttrayicon",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "dcondemand",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "dllhost",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "epmd",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "fontdrvhost",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "jucheck",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "jusched",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "macmnsvc",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "mfehcs",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "mfemactl",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "mfemms",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "msdtc",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "notepad",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "rdpclip",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "sihost",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "smss",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "sqlceip",
+                "doc_count" : 2,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "sqlwriter",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "taskhostw",
+                "doc_count" : 2,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "wininit",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "winlogon",
+                "doc_count" : 2,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key_as_string" : "2023-10-22T17:05:00.000Z",
+          "key" : 1697994300000,
+          "doc_count" : 114,
+          "process" : {
+            "doc_count_error_upper_bound" : 0,
+            "sum_other_doc_count" : 0,
+            "buckets" : [
+              {
+                "key" : "erl",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 13.81
+                }
+              },
+              {
+                "key" : "mcshield",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 10.88
+                }
+              },
+              {
+                "key" : "SWJobEngineWorker2",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 3.78
+                }
+              },
+              {
+                "key" : "svchost",
+                "doc_count" : 18,
+                "utilization" : {
+                  "value" : 3.26
+                }
+              },
+              {
+                "key" : "sqlservr",
+                "doc_count" : 2,
+                "utilization" : {
+                  "value" : 2.92
+                }
+              },
+              {
+                "key" : "SolarWinds.ServiceHost.Process",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 1.87
+                }
+              },
+              {
+                "key" : "WmiPrvSE",
+                "doc_count" : 5,
+                "utilization" : {
+                  "value" : 1.15
+                }
+              },
+              {
+                "key" : "System",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.94
+                }
+              },
+              {
+                "key" : "SWJobEngineSvc2",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.62
+                }
+              },
+              {
+                "key" : "lsass",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.52
+                }
+              },
+              {
+                "key" : "SearchIndexer",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.39
+                }
+              },
+              {
+                "key" : "MVArmorService32",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.33
+                }
+              },
+              {
+                "key" : "ir_agent",
+                "doc_count" : 3,
+                "utilization" : {
+                  "value" : 0.29000000000000004
+                }
+              },
+              {
+                "key" : "mfetp",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.28
+                }
+              },
+              {
+                "key" : "SolarWinds.Agent.Service",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.21
+                }
+              },
+              {
+                "key" : "Automate",
+                "doc_count" : 2,
+                "utilization" : {
+                  "value" : 0.15000000000000002
+                }
+              },
+              {
+                "key" : "DCProcessMonitor",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.11
+                }
+              },
+              {
+                "key" : "ssm-agent-worker",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.09
+                }
+              },
+              {
+                "key" : "SWJobEngineWorker2x64",
+                "doc_count" : 2,
+                "utilization" : {
+                  "value" : 0.05
+                }
+              },
+              {
+                "key" : "conhost",
+                "doc_count" : 11,
+                "utilization" : {
+                  "value" : 0.04
+                }
+              },
+              {
+                "key" : "masvc",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.04
+                }
+              },
+              {
+                "key" : "explorer",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.03
+                }
+              },
+              {
+                "key" : "SsiClassificationClient",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.02
+                }
+              },
+              {
+                "key" : "SsiDataCaptureClient",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.02
+                }
+              },
+              {
+                "key" : "SsiExportClient",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.02
+                }
+              },
+              {
+                "key" : "SsiImageProcessingClient",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.02
+                }
+              },
+              {
+                "key" : "SsiOcrClient",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.02
+                }
+              },
+              {
+                "key" : "WmiApSrv",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.02
+                }
+              },
+              {
+                "key" : "csrss",
+                "doc_count" : 3,
+                "utilization" : {
+                  "value" : 0.02
+                }
+              },
+              {
+                "key" : "mfeesp",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.02
+                }
+              },
+              {
+                "key" : "mfevtps",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.02
+                }
+              },
+              {
+                "key" : "services",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.02
+                }
+              },
+              {
+                "key" : "UpdaterUI",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.01
+                }
+              },
+              {
+                "key" : "amazon-ssm-agent",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.01
+                }
+              },
+              {
+                "key" : "dwm",
+                "doc_count" : 2,
+                "utilization" : {
+                  "value" : 0.01
+                }
+              },
+              {
+                "key" : "erlsrv",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.01
+                }
+              },
+              {
+                "key" : "macompatsvc",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.01
+                }
+              },
+              {
+                "key" : "mctray",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.01
+                }
+              },
+              {
+                "key" : "mfefw",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.01
+                }
+              },
+              {
+                "key" : "rapid7_endpoint_broker",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.01
+                }
+              },
+              {
+                "key" : "Idle",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "LoginAgentService",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "LogonUI",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "MVArmorService64",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "MinervaMcAfeePropertyRequestListener",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "RuntimeBroker",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "SearchUI",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "ShellExperienceHost",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "SsiAutoClientManager",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "armsvc",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "dcagentservice",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "dcagenttrayicon",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "dcondemand",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "dllhost",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "epmd",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "fontdrvhost",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "jucheck",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "jusched",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "macmnsvc",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "mfehcs",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "mfemactl",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "mfemms",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "msdtc",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "notepad",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "rdpclip",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "sihost",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "smss",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "sqlceip",
+                "doc_count" : 2,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "sqlwriter",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "taskhostw",
+                "doc_count" : 2,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "wininit",
+                "doc_count" : 1,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              },
+              {
+                "key" : "winlogon",
+                "doc_count" : 2,
+                "utilization" : {
+                  "value" : 0.0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
